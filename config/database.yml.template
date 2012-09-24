@@ -1,7 +1,3 @@
-# PostgreSQL. Versions 8.2 and up are supported.
-#
-# Configure Using Gemfile
-# gem 'activerecord-jdbcpostgresql-adapter'
 
 default: &default
   adapter: postgresql
