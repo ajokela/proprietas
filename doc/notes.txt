@@ -1,0 +1,76 @@
+September 23, 2012
+
+Much of the data exploration is currently involving:
+
+ftp://ftp.lmic.state.mn.us/pub/data/
+
+List:
+
+drwxrwsr-x    2 1105     1105         4096 Jul 12 20:14 admin_poli
+drwxrwsr-x    4 2039     1105         4096 Aug 18  2011 basemaps
+drwxrwsr-x    2 2002     1105         4096 Aug 24  2010 economy
+drwxrwsr-x    4 1105     1105         4096 Jun  6 16:52 elevation
+drwxrwsr-x    2 1105     1105         4096 Jan 26  2006 health
+drwxrwsr-x    7 1105     1105         4096 Mar  6  2012 phys_biol
+-rwxrw-r--    1 1105     1105         1196 Sep 20  2008 README.TXT
+drwxrwsr-x    5 1105     1105         4096 Dec 16  2009 remote_sensing
+drwxrwsr-x    2 2001     1105         4096 Jun 14  2005 size_061405
+drwxrwsr-x    2 1105     1105         4096 Jun 14  2005 social
+drwxrwsr-x    2 1105     1105         4096 Aug 19  2010 trans_util
+drwxrwsr-x    3 1105     1105         4096 Feb 26  2009 usgs_base
+
+ftp://ftp.lmic.state.mn.us/pub/data/basemaps/glo/
+	
+  + basemaps/glo is of interest; it contains basemaps for each county as well as
+    Original Public Land Survey Plats of Minnesota in Georeferenced format(s)
+
+TIGER 2010 - Minnesota Data
+
+ftp://ftp2.census.gov/geo/pvs/tiger2010st/27_Minnesota/
+
+  + Downloaded all of: ftp://ftp2.census.gov/geo/pvs/tiger2010st/27_Minnesota/27/
+  
+-rw-rw-r--    1 10167    4009       300493 Jan 19  2011 tl_2010_27_aiannh00.zip
+-rw-rw-r--    1 10167    4009       303464 Jan 19  2011 tl_2010_27_aiannh10.zip
+-rw-rw-r--    1 10167    4009       112898 Jan 19  2011 tl_2010_27_aits00.zip
+-rw-rw-r--    1 10167    4009       115942 Jan 19  2011 tl_2010_27_aits10.zip
+-rw-rw-r--    1 10167    4009     12001330 Jan 19  2011 tl_2010_27_bg00.zip
+-rw-rw-r--    1 10167    4009     12117358 Jan 19  2011 tl_2010_27_bg10.zip
+-rw-rw-r--    1 8984     4009       692644 Mar 23  2011 tl_2010_27_cbsa10.zip
+-rw-rw-r--    1 10167    4009       756152 Jan 19  2011 tl_2010_27_cd108.zip
+-rw-rw-r--    1 10167    4009       754579 Jan 19  2011 tl_2010_27_cd111.zip
+-rw-rw-r--    1 10167    4009      1798071 Jan 19  2011 tl_2010_27_county00.zip
+-rw-rw-r--    1 10167    4009      1815570 Jan 19  2011 tl_2010_27_county10.zip
+-rw-rw-r--    1 10167    4009      7841276 Jan 19  2011 tl_2010_27_cousub00.zip
+-rw-rw-r--    1 10167    4009      7942111 Jan 19  2011 tl_2010_27_cousub10.zip
+-rw-rw-r--    1 8984     4009       201106 Mar 23  2011 tl_2010_27_csa10.zip
+-rw-rw-r--    1 8984     4009        32615 Mar 23  2011 tl_2010_27_mil.zip
+-rw-rw-r--    1 10167    4009      1702615 Jan 19  2011 tl_2010_27_place00.zip
+-rw-rw-r--    1 10167    4009      1901646 Jan 19  2011 tl_2010_27_place10.zip
+-rw-rw-r--    1 10167    4009      3888384 Jan 19  2011 tl_2010_27_prisecroads.zip
+-rw-rw-r--    1 15952    4009      1295183 Jun 13 16:38 tl_2010_27_puma10.zip
+-rw-rw-r--    1 10167    4009      1984130 Jan 19  2011 tl_2010_27_sldl10.zip
+-rw-rw-r--    1 10167    4009      1545600 Jan 19  2011 tl_2010_27_sldu10.zip
+-rw-rw-r--    1 10167    4009       421530 Jan 19  2011 tl_2010_27_state00.zip
+-rw-rw-r--    1 10167    4009       421511 Jan 19  2011 tl_2010_27_state10.zip
+-rw-rw-r--    1 10167    4009    145521367 Jan 19  2011 tl_2010_27_tabblock00.zip
+-rw-rw-r--    1 10167    4009    165893912 Mar 26  2012 tl_2010_27_tabblock10.zip
+-rw-rw-r--    1 10167    4009      6370212 Jan 19  2011 tl_2010_27_tract00.zip
+-rw-rw-r--    1 10167    4009      6543953 Jan 19  2011 tl_2010_27_tract10.zip
+-rw-rw-r--    1 10167    4009      3880972 Jan 19  2011 tl_2010_27_unsd00.zip
+-rw-rw-r--    1 10167    4009      3769367 Jan 19  2011 tl_2010_27_unsd10.zip
+-rw-rw-r--    1 8984     4009     18377577 May 11  2011 tl_2010_27_zcta500.zip
+-rw-rw-r--    1 8984     4009     12221331 May 11  2011 tl_2010_27_zcta510.zip
+-rw-rw-r--    1 15952    4009      7694328 Apr  3 12:28 tl_2011_27_taz10.zip
+
+Download Ramsey County Foreclosures:
+
+http://www.co.ramsey.mn.us/prr/foreclosure
+
+  + http://www.co.ramsey.mn.us/NR/rdonlyres/A4561F47-F152-439E-8A40-289A6B61062A/30490/FORECLOSURES13.xls
+  + http://www.co.ramsey.mn.us/NR/rdonlyres/A4561F47-F152-439E-8A40-289A6B61062A/29533/FORECLOSURERAMSEY07.xls
+  + http://www.co.ramsey.mn.us/NR/rdonlyres/A4561F47-F152-439E-8A40-289A6B61062A/18744/FORECLOSURES093.xls
+  + http://www.co.ramsey.mn.us/NR/rdonlyres/A4561F47-F152-439E-8A40-289A6B61062A/18745/FORECLOSURES094.xls
+  + http://www.co.ramsey.mn.us/NR/rdonlyres/A4561F47-F152-439E-8A40-289A6B61062A/22135/FORECLOSURES10F.xls
+  + http://www.co.ramsey.mn.us/NR/rdonlyres/A4561F47-F152-439E-8A40-289A6B61062A/26996/FORECLOSURES11.xls
+  
