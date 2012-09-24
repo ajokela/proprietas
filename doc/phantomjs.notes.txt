@@ -1,0 +1,7 @@
+PhantomJS
+
+You need the PhantomJS browser installed on your system. You can download binaries for Mac OS X and Windows from the PhantomJS download section.
+
+Alternatively you can install Homebrew on Mac OS X and install it with:
+
+$ brew install phantomjs

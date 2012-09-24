@@ -1,3 +1,8 @@
+September 24, 2012
+
+http://www.ihid.co.uk/blog/backbone-js-coffeescript-jasmine-haml-and-rails-working-together
+
+
 September 23, 2012
 
 Much of the data exploration is currently involving:
