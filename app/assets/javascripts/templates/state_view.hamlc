@@ -1,0 +1,12 @@
+%h1 Party at #{@name}
+.discoball
+.stage
+    .band
+        %h3 The Band
+        .instrument Drums
+        .instrument Guitar
+        .instrument Guitar
+.floor
+    %h3 The Crowd
+    -for county in @counties
+        .dancer{class:county.gender}= county.name

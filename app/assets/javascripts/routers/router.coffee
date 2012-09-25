@@ -4,6 +4,6 @@ class ProprietasApp.Router extends Backbone.Router
         "": "index"
         
     index: ->
-        party = new ProprietasApp.Party()
-        view = new ProprietasApp.PartyView(model:party)
+        state = new ProprietasApp.State()
+        view = new ProprietasApp.StateView(model:state)
         $('body').append(view.render().el)

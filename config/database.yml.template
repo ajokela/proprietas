@@ -6,7 +6,7 @@ default: &default
   password: 
 	host: 
 	port: 5432
-		
+
 development: 
 	<<: *default
   database: proprietas_development
