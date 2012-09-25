@@ -38,3 +38,4 @@ gem 'haml-rails'
 
 gem 'rubyzip'
 gem 'geokit'
+gem 'rgeo'
