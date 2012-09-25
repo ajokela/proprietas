@@ -2,22 +2,22 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: proprietas
-  password: 
-  host: 
-  port: 5432
+  username: proprietas_travis_ci
+  password: "WowlyusHicMiViCiHyonImWybOpCeystisp3glybFashAcvibAkyonjawpUrfucquoohumCeadByijhiWrifdoavpyfsOag2"
+  host: roblox.gladstone-tech.com
+  port: 5433
 
 development: 
   <<: *default
-  database: proprietas_development
+  database: proprietas_development_travis_ci
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: proprietas_test
+  database: proprietas_development_travis_ci
 
 production:
   <<: *default
-  database: proprietas_production
+  database: proprietas_development_travis_ci
