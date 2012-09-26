@@ -22,8 +22,9 @@ ActiveRecord::Schema.define(:version => 20120924201607) do
   end
 
   create_table "states", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "name",       :limit => 128
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
 end
