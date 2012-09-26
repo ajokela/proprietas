@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(:version => 20120924201607) do
 
   create_table "spatial_ref_sys", :id => false, :force => true do |t|
-    t.integer "srid",                      :null => false
+    t.integer "srid",      :null => false
     t.string  "auth_name", :limit => 256
     t.integer "auth_srid"
     t.string  "srtext",    :limit => 2048
