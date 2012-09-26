@@ -1,3 +1,8 @@
+September 26, 2012
+
+http://www.bigfastblog.com/map-reduce-with-ruby-using-hadoop
+
+
 September 24, 2012
 
 http://www.ihid.co.uk/blog/backbone-js-coffeescript-jasmine-haml-and-rails-working-together
