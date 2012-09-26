@@ -1,6 +1,7 @@
 
 default: &default
   adapter: postgresql
+  pool:  4
   encoding: unicode
   username: proprietas_travis_ci
   password: "WowlyusHicMiViCiHyonImWybOpCeystisp3glybFashAcvibAkyonjawpUrfucquoohumCeadByijhiWrifdoavpyfsOag2"
