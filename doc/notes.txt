@@ -2,6 +2,26 @@ September 26, 2012
 
 http://www.bigfastblog.com/map-reduce-with-ruby-using-hadoop
 
+--
+Converting KML to Shape:
+
+ogr2ogr -f 'ESRI Shapefile' output.shp input.kml
+
+--
+Metro LiDAR:
+
+ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/projects/metro/
+
+--
+Peat Inventory:
+
+http://www.mngeo.state.mn.us/chouse/metadata/peatinv.html
+
+Metro Council - GIS
+
+ftp://gisftp.metc.state.mn.us/
+
+
 
 September 24, 2012
 
