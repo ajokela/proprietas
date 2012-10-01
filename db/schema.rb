@@ -11,10 +11,53 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120924201607) do
+ActiveRecord::Schema.define(:version => 20121001012904) do
+
+  create_table "counties", :force => true do |t|
+    t.string   "name",        :limit => 128
+    t.integer  "fipscode"
+    t.string   "county_seat", :limit => 128
+    t.integer  "established"
+    t.text     "origin"
+    t.text     "etymology"
+    t.integer  "area_miles",  :limit => 8
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+  end
+
+  create_table "foreclosures", :force => true do |t|
+    t.string   "parid",         :limit => 64
+    t.integer  "luc"
+    t.string   "muni",          :limit => 8
+    t.string   "nbhd",          :limit => 16
+    t.integer  "hstdcode"
+    t.integer  "censusblk"
+    t.string   "zip5",          :limit => 5
+    t.string   "zip4",          :limit => 4
+    t.integer  "case_no"
+    t.text     "attorney"
+    t.date     "sale_dt"
+    t.text     "soldto"
+    t.decimal  "sale_amt",                     :precision => 16, :scale => 4
+    t.decimal  "paid_amt",                     :precision => 16, :scale => 4
+    t.string   "addrln1",       :limit => 254
+    t.string   "addrln2",       :limit => 254
+    t.string   "city",          :limit => 128
+    t.string   "statezip",      :limit => 4
+    t.string   "buyer_addrno",  :limit => 254
+    t.string   "buyer_addrln1", :limit => 254
+    t.string   "buyer_addrln2", :limit => 254
+    t.string   "buyer_city",    :limit => 128
+    t.string   "buyer_state",   :limit => 4
+    t.string   "buyer_zip",     :limit => 16
+    t.date     "entrydate"
+    t.integer  "county_id",     :limit => 8
+    t.datetime "created_at",                                                  :null => false
+    t.datetime "updated_at",                                                  :null => false
+  end
 
   create_table "spatial_ref_sys", :id => false, :force => true do |t|
-    t.integer "srid",      :null => false
+    t.integer "srid",                      :null => false
     t.string  "auth_name", :limit => 256
     t.integer "auth_srid"
     t.string  "srtext",    :limit => 2048
