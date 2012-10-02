@@ -23,53 +23,37 @@ module ActiveRecord
           :binary      => { :name => "bytea" },
           :boolean     => { :name => "boolean" },
           :bigint      => { :name => "int8" },
-          :geography   => { :name => "geography(MultiPolygon, 4326)" },
+          :spatial     => { :name => "geography(MultiPolygon, 4326)" },
           :raster      => { :name => "raster" }
         }
         @@native_database_types
       end
-    
-      def supports_disable_referential_integrity?
-        false
-      end
-        
-      def disable_referential_integrity(&block)
-        transaction {
-          begin
-            execute "SET CONSTRAINTS ALL DEFERRED"
-            yield if block_given?
-          ensure
-            execute "SET CONSTRAINTS ALL IMMEDIATE"
-          end
-        }
+          
+      def quote(value, column = nil)        
+        if ! column.nil? and column.type == :geography
+          %{ST_GeogFromWKB('\\x#{value}')}
+        elsif value.is_a?(::RGeo::Cartesian::BoundingBox)
+          "'#{value.min_x},#{value.min_y},#{value.max_x},#{value.max_y}'::box"
+        else
+          original_quote(value, column)
+        end
       end
       
-      def quote(value, column = nil)
-        
-        if ! column.nil? and column.type == :geography
-          val = "ST_GeogFromWKB('\\x#{value}')"
-        else
-          val = original_quote(value,column)
+      def postgis_lib_version
+        unless defined?(@postgis_lib_version)
+          @postgis_lib_version = select_value("SELECT PostGIS_Lib_Version()") rescue nil
         end
-        
-        val
+        @postgis_lib_version
       end
       
     end
     
-    ##################################################
-    
     PostgreSQLColumn.class_eval {
 
       alias :original_simplified_type :simplified_type
-
       private
-
       def simplified_type(field_type)
-        case field_type
-          when /geography/i then :geography
-          else original_simplified_type(field_type)
-        end
+        field_type =~ /geography|geometry|point|linestring|polygon/i ? :spatial : original_simplified_type(field_type)        
       end
 
     }

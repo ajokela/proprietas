@@ -6,14 +6,8 @@ module ActiveRecord
     def foreign_key(from_table, from_column)
         
       to_table = from_column.to_s.sub(/_id$/, '').pluralize
-        
-      constraint_name = "#{from_table}_#{from_column}_fkey" 
-
-      execute %{alter table #{from_table}
-                add constraint #{constraint_name}
-                foreign key (#{from_column})
-                references #{to_table}(id)}
-
+      foreign_key_raw from_table, from_column, to_table, 'id'
+      
     end
   
     def foreign_key_raw(from_table, from_column, to_table, to_column )
@@ -28,9 +22,7 @@ module ActiveRecord
     end
   
     def remove_constraint(from_table, constraint_name)
-    
       execute %{alter table #{from_table} DROP CONSTRAINT #{constraint_name}}
-    
     end
   
     def add_index_raw(table, columns, is_unique = false)
@@ -39,7 +31,7 @@ module ActiveRecord
     
       index_name = "#{table}_#{index_name}_idx"
         
-      if columns.size > 1
+      if columns.class == Array and columns.size > 1
         columns_str = columns.join(", ")
       else
         columns_str = columns
