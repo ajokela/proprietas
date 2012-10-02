@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121001012904) do
+ActiveRecord::Schema.define(:version => 20121002010320) do
 
   create_table "counties", :force => true do |t|
     t.string   "name",        :limit => 128
@@ -23,6 +23,16 @@ ActiveRecord::Schema.define(:version => 20121001012904) do
     t.integer  "area_miles",  :limit => 8
     t.datetime "created_at",                 :null => false
     t.datetime "updated_at",                 :null => false
+  end
+
+  create_table "countries", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "divisions", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "foreclosures", :force => true do |t|
@@ -56,6 +66,11 @@ ActiveRecord::Schema.define(:version => 20121001012904) do
     t.datetime "updated_at",                                                  :null => false
   end
 
+  create_table "regions", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "spatial_ref_sys", :id => false, :force => true do |t|
     t.integer "srid",                      :null => false
     t.string  "auth_name", :limit => 256
@@ -65,6 +80,7 @@ ActiveRecord::Schema.define(:version => 20121001012904) do
   end
 
   create_table "states", :force => true do |t|
+    t.integer  "fips"
     t.string   "name",       :limit => 128
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false

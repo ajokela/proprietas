@@ -1,0 +1,13 @@
+regions:
+  -
+    region_geocode_num: 1
+    name: Northeast Region
+  -
+    region_geocode_num: 2
+    name: Midwest Region
+  -
+    region_geocode_num: 3
+    name: South Region
+  -
+    region_geocode_num: 4
+    name: West Region

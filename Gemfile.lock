@@ -190,7 +190,7 @@ DEPENDENCIES
   jruby-openssl
   json
   pry
-  rails (= 3.2.8)
+  rails (>= 3.2.8)
   rgeo
   rgeo-geojson
   rspec-rails

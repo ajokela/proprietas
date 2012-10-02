@@ -1,0 +1,38 @@
+divisions:
+  -
+    region_id: Northeast Region
+    division_geocode_num: 1
+    name: New England Division
+  -
+    region_id: Northeast Region
+    division_geocode_num: 2
+    name: Middle Atlantic Division
+  -
+    region_id: Midwest Region
+    division_geocode_num: 3
+    name: East North Central Division
+  -
+    region_id: Midwest Region
+    division_geocode_num: 4
+    name: West North Central Division
+  -
+    region_id: South Region
+    division_geocode_num: 5
+    name: South Atlantic Division
+  -
+    region_id: South Region
+    division_geocode_num: 6
+    name: East South Central Division
+  - 
+    region_id: South Region
+    division_geocode_num: 7
+    name: West South Central Division
+  -
+    region_id: West Region
+    division_geocode_num: 8
+    name: Mountain Division
+  -
+    region_id: West Region
+    division_geocode_num: 9
+    name: Pacific Division
+    
