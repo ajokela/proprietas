@@ -18,6 +18,7 @@ Rake::Task["db:drop"].overwrite {
 
 Rake::Task['db:migrate'].overwrite {
   Rake::Task['proprietas:db:_db_env:load_config'].invoke
+  require 'ext/activerecord_migration_ext'
   
   ActiveRecord::Migration.verbose = ENV["VERBOSE"] ? ENV["VERBOSE"] == "true" : true
   ActiveRecord::Migrator.migrate(ActiveRecord::Migrator.migrations_paths, ENV["VERSION"] ? ENV["VERSION"].to_i : nil)
@@ -43,5 +44,6 @@ namespace :proprietas do
       end
             
     end
+
   end
 end

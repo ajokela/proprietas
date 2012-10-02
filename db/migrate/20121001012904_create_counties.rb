@@ -2,6 +2,7 @@ class CreateCounties < ActiveRecord::Migration
   def change
     create_table :counties do |t|
       t.column      :name,        :string, :limit => 128
+      t.column      :state_id,    :bigint
       t.column      :fipscode,    :integer
       t.column      :county_seat, :string, :limit => 128
       t.column      :established, :integer
@@ -10,5 +11,6 @@ class CreateCounties < ActiveRecord::Migration
       t.column      :area_miles,  :bigint
       t.timestamps
     end
+    
   end
 end
