@@ -33,20 +33,10 @@ module ActiveRecord
         if ! column.nil? and column.type == :geography
           %{ST_GeogFromWKB('\\x#{value}')}
         elsif value.is_a?(::RGeo::Cartesian::BoundingBox)
-          "'#{value.min_x},#{value.min_y},#{value.max_x},#{value.max_y}'::box"
-        else
-          original_quote(value, column)
+          "'#{value.min_x},#{value.min_y},#{value.max_x},#{value.max_y}::box'"
         end
       end
-      
-      def postgis_lib_version
-        unless defined?(@postgis_lib_version)
-          @postgis_lib_version = select_value("SELECT PostGIS_Lib_Version()") rescue nil
-        end
-        @postgis_lib_version
-      end
-      
-    end
+    }
     
     PostgreSQLColumn.class_eval {
 

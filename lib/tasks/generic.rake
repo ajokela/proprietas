@@ -2,7 +2,7 @@ Rake::Task["db:drop"].overwrite {
   
   path = File.join(Rails.root.to_s, 'app', 'models', '**/*.rb')
   
-  models = ['schema_migrations']
+  models = ['schema_migrations', 'sessions']
   
   models.concat Dir.glob(path).map { |file|
     File.basename(file).sub(/\.rb$/, '').pluralize
@@ -11,13 +11,17 @@ Rake::Task["db:drop"].overwrite {
   ActiveRecord::Base.establish_connection
   
   models.each do |model|
-    ActiveRecord::Base.connection.execute("DROP TABLE #{model}")
+    begin
+      ActiveRecord::Base.connection.execute("DROP TABLE #{model} CASCADE")
+    rescue Exception => e
+      $stderr.puts e
+    end
   end
   
 }
 
 Rake::Task['db:migrate'].overwrite {
-  Rake::Task['proprietas:db:_db_env:load_config'].invoke
+  #Rake::Task['proprietas:db:_db_env:load_config'].invoke
   require 'ext/activerecord_migration_ext'
   
   ActiveRecord::Migration.verbose = ENV["VERBOSE"] ? ENV["VERBOSE"] == "true" : true
