@@ -1,15 +1,14 @@
+ActiveRecord::Base.establish_connection
 
 module ActiveRecord
   module ConnectionAdapters
-    
+  
     PostgreSQLAdapter.class_eval {
-      
-      @@native_database_types = nil
       
       alias :original_quote :quote
             
       def native_database_types
-        @@native_database_types = {
+        {
           :primary_key => { :name => "bigserial primary key" },
           :string      => { :name => "character varying", :limit => 255 },
           :text        => { :name => "text" },
@@ -26,7 +25,6 @@ module ActiveRecord
           :spatial     => { :name => "geography(MultiPolygon, 4326)" },
           :raster      => { :name => "raster" }
         }
-        @@native_database_types
       end
           
       def quote(value, column = nil)        
