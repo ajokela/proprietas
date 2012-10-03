@@ -1,7 +1,23 @@
 module Proprietas
   
   module Utilities
-    
+
+    module Transaction
+      
+      def self.block(enable, &b)
+      
+        if enable
+          ActiveRecord::Base.transaction do
+            b.call
+          end
+        else
+          b.call
+        end
+        
+      end
+      
+    end
+      
     def self.wait_spinner( args = {} )
     
       defaults = {:fps=> 10, :enable => true, :debug => 0}

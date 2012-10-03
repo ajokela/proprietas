@@ -1,9 +1,10 @@
-class Rake::Task
-  def overwrite(&block)
-    @actions.clear
-    enhance(&block)
-  end  
-end
+require 'rake/hooks'
+require 'ext/activerecord_migration_ext'
+
+after :rails_env do
+  ActiveRecord::Base.establish_connection
+  require 'ext/activerecord_ext'
+end 
 
 namespace :debug do
   
@@ -14,3 +15,4 @@ namespace :debug do
   end
   
 end
+

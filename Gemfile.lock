@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/ajokela/rake-hooks.git
+  revision: e45a26e24f1e525dd8398423b95029bcb024428d
+  specs:
+    rake-hooks (1.2.3)
+      rake
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -193,6 +200,7 @@ DEPENDENCIES
   pry
   rails (>= 3.2.8)
   rainbow
+  rake-hooks!
   rgeo
   rgeo-geojson
   rspec-rails

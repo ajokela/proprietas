@@ -1,0 +1,6 @@
+
+_config:
+  include:
+    - 'countries.yml'
+    - 'regions.yml'
+    - 'divisions.yml'

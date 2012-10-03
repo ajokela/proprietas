@@ -1,7 +1,7 @@
 
 module ActiveRecord
   module ConnectionAdapters
-  
+    
     PostgreSQLAdapter.class_eval {
       
       @@native_database_types = nil
@@ -34,6 +34,8 @@ module ActiveRecord
           %{ST_GeogFromWKB('\\x#{value}')}
         elsif value.is_a?(::RGeo::Cartesian::BoundingBox)
           "'#{value.min_x},#{value.min_y},#{value.max_x},#{value.max_y}::box'"
+        else
+          original_quote(value, column)
         end
       end
     }

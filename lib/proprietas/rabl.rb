@@ -37,7 +37,7 @@
 #######################################################################################################################
 
 require 'rainbow'
-require 'utilities'
+require File.join(Rails.root.to_s, 'lib', 'proprietas', 'utilities')
 
 #########
 #
@@ -148,18 +148,9 @@ module Proprietas
     
       ActiveRecord::Base.connection.enable_query_cache!
     
-      Database::Transaction.block( self.transaction_enable ) do
+      Utilities::Transaction.block( self.transaction_enable ) do
       
         $stderr.puts ""
-      
-        #if options[:delete_all]
-        #  
-        #  Hash[data.reverse_each.map{|e| e}].each do |key,dat|
-        #    obj = key.singularize.camelize.constantize
-        #    obj.delete_all
-        #  end
-        #  
-        #end
       
         data.each do |key,dat|
         
