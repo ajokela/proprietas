@@ -69,6 +69,14 @@ ActiveRecord::Schema.define(:version => 20121004013831) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "municipal_divisions", :force => true do |t|
+    t.string   "code",       :limit => 4
+    t.string   "name",       :limit => 128
+    t.string   "mnemonic",   :limit => 16
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
   create_table "municipality_divisions", :force => true do |t|
     t.string   "code",       :limit => 4
     t.string   "name",       :limit => 128
