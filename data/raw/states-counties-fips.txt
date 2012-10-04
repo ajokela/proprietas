@@ -1,6 +1,5 @@
-Appendix A—State and County Codes and Names
+State and County Codes and Names
 FIPS     County     State
-
 
 01     001     Autauga     AL
 01     003     Baldwin     AL
