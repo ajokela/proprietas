@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121002174915) do
+ActiveRecord::Schema.define(:version => 20121004013831) do
 
   create_table "counties", :force => true do |t|
     t.string   "name",        :limit => 128
@@ -57,6 +57,28 @@ ActiveRecord::Schema.define(:version => 20121002174915) do
     t.date     "entrydate"
     t.datetime "created_at",                                                  :null => false
     t.datetime "updated_at",                                                  :null => false
+  end
+
+  create_table "homestead_codes", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "land_use_codes", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "municipality_divisions", :force => true do |t|
+    t.string   "code",       :limit => 4
+    t.string   "name",       :limit => 128
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
+  create_table "neighborhoods", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "properties", :force => true do |t|
