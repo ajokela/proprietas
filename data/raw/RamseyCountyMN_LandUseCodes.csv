@@ -4,8 +4,8 @@
 109,Greenhouses, Vegetables & Floracult.
 190,Other Agricultural Use
 280,Taxable Manufactured Home
-285,mh Inventory With Unit
-290,mh Inventory Vacant
+285,MH Inventory With Unit
+290,MH Inventory Vacant
 300,Industrial, Vacant Land
 310,Food&Drink Process Plants and Storae
 320,Founderies & Heavy Manufact Plants
@@ -25,7 +25,7 @@
 405,Apartment Vacant Land
 406,Apartment Misc Improvements
 407,Fraternity/Sorority House
-409,bed and Breakfast
+409,Bed and Breakfast
 410,Motels and Tourist Cabins
 411,Hotels
 412,Nursing Homes & Private Hospitals
@@ -56,9 +56,9 @@
 448,Office Buld 3 or More Stories Walkup
 449,Office Buld 3 or More Stories Elevat
 450,Condominium Office Units
-451,gas Station
+451,Gas Station
 452,Automotive Service Station
-453,car Washes
+453,Car Washes
 454,Auto car Sales and Services
 455,Commercial Garages
 456,Parking Garage Structure & Lots
@@ -82,17 +82,17 @@
 500,Residential, Vacant Land, Lot
 501,Resid/Exempt Vacant Land
 510,Single Family Dwelling, Platted Lot
-511,res/Exempt Single Family Dwelling
-515,two Residences on one Parcel
-520,two Family Dwelling, Platted Lot
-521,res/Exempt Multi Family Dwelling
+511,Res/Exempt Single Family Dwelling
+515,Two Residences on one Parcel
+520,Two Family Dwelling, Platted Lot
+521,Res/Exempt Multi Family Dwelling
 525,Conversion
 530,Three Family Dwelling, Platted Lot
 531,res/Exempt Three Family
 540,Double Dwelling
 541,res/dbl Dwelling Exempt
 545,Half Double Dwelling
-546,res/Exempt 1/2 Double Dwelling
+546,Res/Exempt 1/2 Double Dwelling
 550,Condominium
 552,Condo/co-op Garage or Storage
 553,Condo/co-op Storage Unit
@@ -109,10 +109,10 @@
 599,Other Residential
 600,Exempt Property Owned by Usa
 610,Exempt Property Owned by State of Mn
-615,Exempt Property Owned by met Council
+615,Exempt Property Owned by Met Council
 618,Exempt Property Owned by Port Authority
 620,Exempt Property Owned by Counties
-625,st Paul Airport & mac Property
+625,St Paul Airport & MAC Property
 630,Exempt Property Owned by Township
 635,Firestations
 640,Exempt Property Owned by Municipals
@@ -122,20 +122,20 @@
 645,Exempt hra Vacant Land
 646,Exempt Cultural & Nature Exhibits
 649,Library
-650,Exempt Property Owned by bd of Educ.
+650,Exempt Property Owned by Bd of Educ.
 660,Exempt Property Owned Park Dist.Pub
 670,Exempt Prop Owned col-Acad-pri Schoo
 680,Charit Exemt Hosp Homs Aged etc,Priv
 682,Welfare/Charitable Facility
-685,Churches etc Public Worship    Prive
+685,Churches etc Public Worship Prive
 687,Exempt Office Buildings
-690,Graveyards Monuments, Cemeteries
+690,Graveyards Monuments/Cemeteries
 695,Skyways
 699,Regional Water District
 821,Vacant Land
-830,Comm ld & Impro own by pub uti th Rail
+830,Comm ld & Impro own by Pub Uti th Rail
 840,Railroad Real Prop Used in Operation
 850,Railroad Real Prop not Used Operatos
 860,Rail per Prop Used Oper Rail per Pro
 870,Rail per Prop not Used in Operations
-880,pub Util per Prop Other Than Rrs
+880,Pub Util per Prop Other Than Rrs

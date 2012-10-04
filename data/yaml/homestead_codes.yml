@@ -1,0 +1,37 @@
+# require 'proprietas/translate/csvyml'
+#
+# options = {:infile => 'data/raw/RamseyCountyMN_HomesteadCodes.csv', :mnemonic_min_length => 5, :mnemonic_basis => 1, :outfile => 'data/yaml/homestead_codes.yml', :table => 'homestead_codes', :columns => [:code, :name, :mnemonic]}
+#  
+# csvyml = Proprietas::CsvYml.new(options)
+# csvyml.process
+
+---
+homestead_codes:
+- code: '1'
+  name: Full Homestead
+  mnemonic: FHXXX
+- code: '2'
+  name: (BPVD) Blind Parapalegic Visually Disabled Homestead
+  mnemonic: BBPVDH
+- code: '3'
+  name: Fractional Homestead
+  mnemonic: FHXXXX
+- code: '4'
+  name: BPVD Fractional Homesteawd
+  mnemonic: BFHXX
+- code: '5'
+  name: Mid-Year Homestead
+  mnemonic: MYHXX
+- code: '6'
+  name: BPVD mid-Year Homestead
+  mnemonic: BYHXX
+- code: '7'
+  name: Joint-Regular/BPVD Full Homestead
+  mnemonic: JRBFH
+- code: '8'
+  name: Joint Regular/BPVD Fractional Homestead
+  mnemonic: JRBFHX
+- code: '9'
+  name: Joint Regular/BPVD mid-Year Homestead
+  mnemonic: JRBYH
+...
