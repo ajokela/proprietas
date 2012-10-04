@@ -1,0 +1,141 @@
+100,Agricultural Vacant Land
+101,Cash Grain or General Farm
+108,Nurseries
+109,Greenhouses, Vegetables & Floracult.
+190,Other Agricultural Use
+280,Taxable Manufactured Home
+285,mh Inventory With Unit
+290,mh Inventory Vacant
+300,Industrial, Vacant Land
+310,Food&Drink Process Plants and Storae
+320,Founderies & Heavy Manufact Plants
+330,Manufacturing & Assembly Medium
+340,Manufacturing & Assembly Light
+350,Industrial Warehouses    Light
+360,Industrial Truck Terminals
+370,Small Shops (Machine,Tool & die etc)
+380,Mines and Quarries
+390,Grain Elevators
+399,Other Industrial Structures
+400,Commercial Vacant Land
+401,Apartments 1-9 Rental Units
+402,Apartments 10-19 Rental Units
+403,Apartments 20-49 Rental Units
+404,Apartments 50 or More Units
+405,Apartment Vacant Land
+406,Apartment Misc Improvements
+407,Fraternity/Sorority House
+409,bed and Breakfast
+410,Motels and Tourist Cabins
+411,Hotels
+412,Nursing Homes & Private Hospitals
+415,Trailer or Mobile Home Park
+419,Other Commercial Housing
+420,Small (Under 10,000sf) Detach Retai
+421,Supermarkets
+422,Discount Stores & jr. Dept Stores
+423,Medium Detached Retail
+424,Full Line Department Stores
+425,Neighborhood Shopping Center
+426,Community Shopping Center
+427,Regional Shopping Center
+428,Veterinary Clinic
+429,Mixed Resid/Commercial
+430,Resturant, Cafeteria, and/or Bar
+431,Small Strip Center
+432,Convenience Store
+433,Mixed Retail/Commercial
+434,Retail Condominium
+435,Drive-in Rest/Food Service Facility
+437,Daycare Centers
+439,Other Food Service Structure
+441,Funeral Homes
+442,Medical Clinics and Offices
+444,Full Service Banks
+447,Office Building 1-2 Stories
+448,Office Buld 3 or More Stories Walkup
+449,Office Buld 3 or More Stories Elevat
+450,Condominium Office Units
+451,gas Station
+452,Automotive Service Station
+453,car Washes
+454,Auto car Sales and Services
+455,Commercial Garages
+456,Parking Garage Structure & Lots
+457,Parking Ramp
+458,CI/Condo/co-op non-tax Outlot
+460,Theaters
+461,Drive-in Theaters
+462,Golf Driv Range & Mini Golf Courses
+463,Golf Courses
+464,Bowling Alleys
+465,Lodge Halls and Amusement Parks
+479,Flex Industrial Center
+480,Commercial Warehouses
+481,Mini Warehouse
+482,Commercial Truck Terminals
+483,Condominium Warehouse
+485,Research and Development Facility
+490,Marine Service Facilities
+496,Marina (Small Boat)
+499,Other Commercial Structures
+500,Residential, Vacant Land, Lot
+501,Resid/Exempt Vacant Land
+510,Single Family Dwelling, Platted Lot
+511,res/Exempt Single Family Dwelling
+515,two Residences on one Parcel
+520,two Family Dwelling, Platted Lot
+521,res/Exempt Multi Family Dwelling
+525,Conversion
+530,Three Family Dwelling, Platted Lot
+531,res/Exempt Three Family
+540,Double Dwelling
+541,res/dbl Dwelling Exempt
+545,Half Double Dwelling
+546,res/Exempt 1/2 Double Dwelling
+550,Condominium
+552,Condo/co-op Garage or Storage
+553,Condo/co-op Storage Unit
+555,Condo/co-op non-tax Outlot
+559,Condo/co-op Vacant
+560,Htrl/Mobile Home on Real Estate
+569,Htrl Pers Prop (Hmstd)
+570,Townhom-Inner
+573,Townhome-Detached
+575,Townhome-Outer
+577,Townhome non-tax Outlot
+579,Townhome Vacant
+598,Exempt Other Residential
+599,Other Residential
+600,Exempt Property Owned by Usa
+610,Exempt Property Owned by State of Mn
+615,Exempt Property Owned by met Council
+618,Exempt Property Owned by Port Authority
+620,Exempt Property Owned by Counties
+625,st Paul Airport & mac Property
+630,Exempt Property Owned by Township
+635,Firestations
+640,Exempt Property Owned by Municipals
+641,Exempt Land
+642,Exempt Clinics
+644,Sport/Public Assembly Facility
+645,Exempt hra Vacant Land
+646,Exempt Cultural & Nature Exhibits
+649,Library
+650,Exempt Property Owned by bd of Educ.
+660,Exempt Property Owned Park Dist.Pub
+670,Exempt Prop Owned col-Acad-pri Schoo
+680,Charit Exemt Hosp Homs Aged etc,Priv
+682,Welfare/Charitable Facility
+685,Churches etc Public Worship    Prive
+687,Exempt Office Buildings
+690,Graveyards Monuments, Cemeteries
+695,Skyways
+699,Regional Water District
+821,Vacant Land
+830,Comm ld & Impro own by pub uti th Rail
+840,Railroad Real Prop Used in Operation
+850,Railroad Real Prop not Used Operatos
+860,Rail per Prop Used Oper Rail per Pro
+870,Rail per Prop not Used in Operations
+880,pub Util per Prop Other Than Rrs
