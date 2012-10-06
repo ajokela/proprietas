@@ -1,4 +1,14 @@
 GIT
+  remote: git://github.com/ajokela/rails-erd.git
+  revision: d552183a42e35bdc32d6f33fb64b430b0c31236f
+  specs:
+    rails-erd (0.5.8dev)
+      activerecord (~> 3.0)
+      activesupport (~> 3.0)
+      choice (~> 0.1.4)
+      ruby-graphviz (~> 1.0)
+
+GIT
   remote: git://github.com/ajokela/rake-hooks.git
   revision: e45a26e24f1e525dd8398423b95029bcb024428d
   specs:
@@ -44,6 +54,7 @@ GEM
     builder (3.0.3)
     childprocess (0.3.5)
       ffi (~> 1.0, >= 1.0.6)
+    choice (0.1.6)
     coderay (1.0.7)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -98,7 +109,7 @@ GEM
     jruby-openssl (0.7.7)
       bouncy-castle-java (>= 1.5.0146.1)
     json (1.7.5-java)
-    listen (0.5.2)
+    listen (0.5.3)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -155,6 +166,7 @@ GEM
       activesupport (>= 3.0)
       railties (>= 3.0)
       rspec (~> 2.11.0)
+    ruby-graphviz (1.0.8)
     rubyzip (0.9.9)
     sass (3.2.1)
     sass-rails (3.2.5)
@@ -199,6 +211,7 @@ DEPENDENCIES
   json
   pry
   rails (>= 3.2.8)
+  rails-erd!
   rainbow
   rake-hooks!
   rgeo

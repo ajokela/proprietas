@@ -60,8 +60,11 @@ ActiveRecord::Schema.define(:version => 20121004013831) do
   end
 
   create_table "homestead_codes", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "code"
+    t.string   "name",       :limit => 128
+    t.string   "mnemonic",   :limit => 16
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
   create_table "land_use_codes", :force => true do |t|

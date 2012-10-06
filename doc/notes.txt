@@ -1,7 +1,23 @@
+October, 5 2012
+
+  --
+  http://map.deed.state.mn.us/chameleon/m3d4.phtml
+
+  --
+  https://github.com/rspec/rspec-expectations
+
 October 4, 2012
 
   --
   http://services.co.dakota.mn.us/foreclosure/default.aspx
+  
+  --
+  OpenLayers - Javascript Mapping
+  http://www.openlayers.org/
+  http://trac.osgeo.org/openlayers/wiki/Documentation
+  
+  --
+  http://www.interoperate.co.uk/blog/2012/02/07/using-openlayers-with-rails/
 
 October 3, 2012
 

@@ -4,3 +4,4 @@ _config:
     - 'countries.yml'
     - 'regions.yml'
     - 'divisions.yml'
+    - 'homestead_codes.yml'

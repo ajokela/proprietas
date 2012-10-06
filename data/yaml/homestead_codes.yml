@@ -17,7 +17,7 @@ homestead_codes:
   name: Fractional Homestead
   mnemonic: FHXXXX
 - code: '4'
-  name: BPVD Fractional Homesteawd
+  name: BPVD Fractional Homestead
   mnemonic: BFHXX
 - code: '5'
   name: Mid-Year Homestead

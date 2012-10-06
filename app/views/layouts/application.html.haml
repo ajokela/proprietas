@@ -6,4 +6,8 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
-    = yield
+    .header
+      .image{:style=>"display: inline-block; text-align: left; width: 125px"}
+        = image_tag 'minnesota.png'
+    .body
+      = yield

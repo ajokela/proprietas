@@ -1,5 +1,8 @@
 require 'spec_helper'
 
 describe Country do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "has at least one (1) country" do
+    cnt = Country.where({}).count
+    cnt.should be > 0
+  end
 end
