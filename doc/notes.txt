@@ -1,13 +1,18 @@
 October 9, 2012
 
   --
+  http://www.ffiec.gov/hmdaadwebreport/AggWelcome.aspx
   http://www.ffiec.gov/hmda/orderform.htm
+  http://www.ffiec.gov/default.htm
   
   --
   http://www.ntis.gov/products/bank-hmda.aspx
   
   --
   http://www.archives.gov/research/arc/
+  
+  --
+  https://github.com/toastbrot/ruby-shapefile
 
 October 8, 2012
 
