@@ -1,4 +1,15 @@
-October, 8, 2012
+October 9, 2012
+
+  --
+  http://www.ffiec.gov/hmda/orderform.htm
+  
+  --
+  http://www.ntis.gov/products/bank-hmda.aspx
+  
+  --
+  http://www.archives.gov/research/arc/
+
+October 8, 2012
 
   --
   http://www.zonums.com/online/kml2shp.php
@@ -6,7 +17,7 @@ October, 8, 2012
   --
   http://d3js.org/
 
-October, 5 2012
+October 5 2012
 
   --
   http://map.deed.state.mn.us/chameleon/m3d4.phtml
