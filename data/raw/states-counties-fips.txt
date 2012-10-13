@@ -1,5 +1,6 @@
-State and County Codes and Names
+Appendix AÃ³State and County Codes and Names
 FIPS     County     State
+
 
 01     001     Autauga     AL
 01     003     Baldwin     AL
@@ -3157,30 +3158,30 @@ FIPS     County     State
 72     005     Aguadilla     PR
 72     007     Aguas Buenas     PR
 72     009     Aibonito     PR
-72     011     Añasco     PR
+72     011     AÃ’asco     PR
 72     013     Arecibo     PR
 72     015     Arroyo     PR
 72     017     Barceloneta     PR
 72     019     Barranquitas     PR
-72     021     Bayamón     PR
+72     021     BayamÃ›n     PR
 72     023     Cabo Rojo     PR
 72     025     Caguas     PR
 72     027     Camuy     PR
-72     029     Canóvanas     PR
+72     029     CanÃ›vanas     PR
 72     031     Carolina     PR
-72     033     Cataño     PR
+72     033     CataÃ’o     PR
 72     035     Cayey     PR
 72     037     Ceiba     PR
 72     039     Ciales     PR
 72     041     Cidra     PR
 72     043     Coamo     PR
-72     045     Comerío     PR
+72     045     ComerÃŒo     PR
 72     047     Corozal     PR
 72     049     Culebra     PR
 72     051     Dorado     PR
 72     053     Fajardo     PR
 72     054     Florida     PR
-72     055     Guánica     PR
+72     055     GuÂ·nica     PR
 72     057     Guayama     PR
 72     059     Guayanilla     PR
 72     061     Guaynabo     PR
@@ -3190,35 +3191,35 @@ FIPS     County     State
 72     069     Humacao     PR
 72     071     Isabela     PR
 72     073     Jayuya     PR
-72     075     Juana Díaz     PR
+72     075     Juana DÃŒaz     PR
 72     077     Juncos     PR
 72     079     Lajas     PR
 72     081     Lares     PR
-72     083     Las Marías     PR
+72     083     Las MarÃŒas     PR
 72     085     Las Piedras     PR
-72     087     Loíza     PR
+72     087     LoÃŒza     PR
 72     089     Luquillo     PR
-72     091     Manatí     PR
+72     091     ManatÃŒ     PR
 72     093     Maricao     PR
 72     095     Maunabo     PR
-72     097     Mayagüez     PR
+72     097     MayagÂ¸ez     PR
 72     099     Moca     PR
 72     101     Morovis     PR
 72     103     Naguabo     PR
 72     105     Naranjito     PR
 72     107     Orocovis     PR
 72     109     Patillas     PR
-72     111     Peñuelas     PR
+72     111     PeÃ’uelas     PR
 72     113     Ponce     PR
 72     115     Quebradillas     PR
-72     117     Rincón     PR
-72     119     Río Grande     PR
+72     117     RincÃ›n     PR
+72     119     RÃŒo Grande     PR
 72     121     Sabana Grande     PR
 72     123     Salinas     PR
-72     125     San Germán     PR
+72     125     San GermÂ·n     PR
 72     127     San Juan     PR
 72     129     San Lorenzo     PR
-72     131     San Sebastián     PR
+72     131     San SebastiÂ·n     PR
 72     133     Santa Isabel     PR
 72     135     Toa Alta     PR
 72     137     Toa Baja     PR
